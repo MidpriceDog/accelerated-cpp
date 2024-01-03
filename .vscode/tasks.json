@@ -27,10 +27,12 @@
       "args": [
         "-fcolor-diagnostics",
         "-fansi-escape-codes",
+        "-std=c++11",
         "-g",
         "${file}",
         "-o",
-        "${fileDirname}/${fileBasenameNoExtension}"
+        "${fileDirname}/${fileBasenameNoExtension}",
+        "-Wall",
       ],
       "options": {
         "cwd": "${fileDirname}"

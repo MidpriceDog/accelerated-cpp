@@ -71,9 +71,18 @@
     "__functional_03": "cpp",
     "__functional_base_03": "cpp",
     "*.h": "cpp",
-    "list": "cpp"
+    "list": "cpp",
+    "map": "cpp",
+    "__tree": "cpp",
+    "deque": "cpp",
+    "fstream": "cpp",
+    "stack": "cpp",
+    "filesystem": "cpp"
   },
   "C_Cpp.default.compilerPath": "/usr/bin/gcc",
   "code-runner.runInTerminal": true,
+  "code-runner.executorMap": {
+    "cpp": "cd $dir && g++ -std=c++20 $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt"
+  },
   "task.slowProviderWarning": true
 }
